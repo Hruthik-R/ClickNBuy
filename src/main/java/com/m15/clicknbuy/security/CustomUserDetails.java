@@ -28,7 +28,11 @@ public class CustomUserDetails implements UserDetails {
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		List<SimpleGrantedAuthority> list = new ArrayList<SimpleGrantedAuthority>();
-		list.add(new SimpleGrantedAuthority(role));
+		if (role.startsWith("ROLE_")) {
+			list.add(new SimpleGrantedAuthority(role));
+		} else {
+			list.add(new SimpleGrantedAuthority("ROLE_" + role));
+		}
 		return list;
 	}
 
