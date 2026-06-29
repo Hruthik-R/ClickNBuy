@@ -123,12 +123,9 @@ Install the following before running:
 ## Clone Repository
 
 ```bash id="j4f8xa"
-git clone https://github.com/YOUR_USERNAME/clickNbuy.git
+git clone https://github.com/Hruthik-R/ClickNbuy.git
 cd clickNbuy
 ```
-
-Replace `YOUR_USERNAME` with your GitHub username.
-
 ---
 
 ## Configuration
