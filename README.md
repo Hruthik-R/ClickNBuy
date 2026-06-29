@@ -123,8 +123,8 @@ Install the following before running:
 ## Clone Repository
 
 ```bash id="j4f8xa"
-git clone https://github.com/Hruthik-R/ClickNbuy.git
-cd clickNbuy
+git clone https://github.com/Hruthik-R/ClickNBuy.git
+cd ClickNBuy
 ```
 ---
 
